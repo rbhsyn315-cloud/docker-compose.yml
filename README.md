@@ -1,4 +1,4 @@
-def normalize_text(s):
+حdef normalize_text(s):
     # نرمال‌سازی یونی‌کد و حذف فواصل اضافی
     s = unicodedata.normalize("NFKD", s)
     s = s.lower()
